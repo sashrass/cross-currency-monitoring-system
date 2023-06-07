@@ -1,0 +1,27 @@
+{
+  "name": "cross-currency-monitoring-system",
+  "version": "1.0.0",
+  "description": "Cross-currency exchange rate monitoring system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "sashrass",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@jsdsl/bimap": "^0.1.1",
+    "@pontem/liquidswap-sdk": "^0.6.1",
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "tslib": "^2.5.0"
+  }
+}
