@@ -3,6 +3,7 @@ The system allows you to calculate the most profitable exchange rate of one curr
 For example, if the direct exchange rate of currency A to B is 2, and the exchange sequence A-C-B allows you to get a rate of 2.5 units of currency B for 1 unit of currency A, then the system will find and return this exchange sequence as the most profitable, if there are no even more profitable currency exchange sequences
 
 **Demonstration**
+
 For 1 USDC coin, you can get 1.000013 USDT coins (rate for June 7, 2023). Using this system, you can find out a more profitable exchange rate of USDC to USDT by exchanging USDC for some intermediate currencies before exchanging for USDT. In this case, the USDT/USDC rate is 1.15
 
 Request:
